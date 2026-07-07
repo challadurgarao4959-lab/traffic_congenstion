@@ -1,0 +1,12 @@
+{
+  "metadata": {
+    "description": "Sample gender distribution used for analytics and demographic overlays.",
+    "source": "synthetic dataset",
+    "generated_at": "2026-07-08T00:00:00Z"
+  },
+  "distribution": [
+    { "label": "Female", "value": 52 },
+    { "label": "Male", "value": 46 },
+    { "label": "Non-binary", "value": 2 }
+  ]
+}
