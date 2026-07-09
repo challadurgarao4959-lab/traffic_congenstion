@@ -10,6 +10,7 @@ services:
   - type: web
     name: traffic-congestion-backend
     env: python
+    runtime: python-3.12
     plan: free
     branch: main
     buildCommand: pip install -r requirements.txt
