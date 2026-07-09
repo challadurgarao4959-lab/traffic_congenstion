@@ -13,5 +13,4 @@ requests==2.31.0
 joblib==1.4.2
 plotly==5.19.0
 SQLAlchemy==2.0.51
-psycopg2-binary==2.9.12
 python-multipart==0.0.32
