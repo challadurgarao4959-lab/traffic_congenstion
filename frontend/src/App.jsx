@@ -46,7 +46,8 @@ L.Icon.Default.mergeOptions({
   shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
 });
 
-const BACKEND_URL = "http://localhost:8001/api";
+// Support both local development and production deployment
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "http://localhost:8001/api";
 
 export default function App() {
   const [activeTab, setActiveTab] = useState('home');
